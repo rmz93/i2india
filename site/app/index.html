@@ -42,7 +42,33 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="container">
+            <ul id="gn-menu" class="gn-menu-main">
+                <li class="gn-trigger">
+                    <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                    <nav class="gn-menu-wrapper">
+                        <div class="gn-scroller">
+                            <ul class="gn-menu">
+                                <li>
+                                    <a href="#/about" class="gn-icon gn-icon-download">About</a>
+                                </li>
+                                <li><a href="#/incubation_model" class="gn-icon gn-icon-cog">Incubation Model</a></li>
+                                <li><a href="#/careers" class="gn-icon gn-icon-help">Careers</a></li>
+                                <li>
+                                    <a href="#contact" class="gn-icon gn-icon-archive">Contact</a>
+                                </li>
+                            </ul>
+                        </div><!-- /gn-scroller -->
+                    </nav>
+                </li>
+                <li><a href="#">i2india</a></li>
+                <li>   </li>
+            </ul>
+    </div>
+
+    <div ng-view="">
+        
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -100,6 +126,10 @@
         <!-- Custom Theme JavaScript -->
         <script src="assets/js/custom.js"></script>
         <script src="scripts/controllers/home.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/incubation_model.js"></script>
+        <script src="scripts/controllers/careers.js"></script>
+        <script src="scripts/controllers/jobscontroller.js"></script>
         <!-- endbuild -->
 </body>
 </html>

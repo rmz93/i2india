@@ -1,8 +1,7 @@
-.poster {
-	padding-top: 50px;
+body {
+	overflow-x:hidden;
 }
-.picture-space{
-	padding-top: 150px;
-	padding-bottom: 150px;
-	min-height: 200px;
+
+.container {
+	min-width: 100%;
 }
