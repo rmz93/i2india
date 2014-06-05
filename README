@@ -1,0 +1,6 @@
+Site for i2india.
+
+folder "site" contains the angular app for the site. can be used with grunt server running locally on the local machine.
+folder "site_template" contains the standard files, which can be viewed directly on any machine.
+
+Best viewed when you are connected to the internet
