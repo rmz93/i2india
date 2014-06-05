@@ -2,9 +2,14 @@
 
 angular.module('siteApp')
   .controller('CareersCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.jobs = [
+    {
+    	title: 'Manager',
+    	skills: 'HR, Coding'
+    },
+    {
+    	title: 'Chef',
+    	skills: 'Food'
+    },
     ];
   });
