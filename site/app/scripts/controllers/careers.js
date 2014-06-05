@@ -5,7 +5,9 @@ angular.module('siteApp')
     $scope.jobs = [
     {
     	title: 'Manager',
-    	skills: 'HR, Coding'
+        job_description: 'evfjdksl',
+        write_to: 'email@hfjkd.nifsk'
+        
     },
     {
     	title: 'Chef',

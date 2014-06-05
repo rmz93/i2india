@@ -2,24 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>LINK - Agency Theme</title>
-
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css">
 
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- Squad theme CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,52 +47,42 @@
 
   <body>
 
-	<!-- Menu
-	<nav class="menu" id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
-			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="index.html">Home</a>
-			<a href="services.html">Services</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="about.html">About</a>
-			<a href="#contact">Contact</a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-dribbble"></i></a>
-			<a href="#"><i class="fa fa-envelope"></i></a>
-		</div>
-		
-		Menu button
-		<div id="menuToggle"><i class="fa fa-bars"></i></div>
-	</nav> -->
-
-	<div class="gn-scroller">
-	    <ul class="gn-menu">
-	        <li class="gn-search-item">
-	            <input placeholder="Search" type="search" class="gn-search">
-	            <a class="gn-icon gn-icon-search"><span>Search</span></a>
-	        </li>
-	        <li>
-	            <a class="gn-icon gn-icon-download">Downloads</a>
-	            <ul class="gn-submenu">
-	                <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-	                <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-	            </ul>
-	        </li>
-	        <li><a class="gn-icon gn-icon-cog">Settings</a></li>
-	        <li><!-- ... --></li>
-	        <!-- ... -->
-	    </ul>
-	</div><!-- /gn-scroller -->
-	
-	<!-- MAIN IMAGE SECTION -->
+  	<!-- nav menu -->
+	<div class="container">
+            <ul id="gn-menu" class="gn-menu-main">
+                <li class="gn-trigger">
+                    <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                    <nav class="gn-menu-wrapper">
+                        <div class="gn-scroller">
+                            <ul class="gn-menu">
+                                <li>
+                                    <a class="gn-icon gn-icon-help" href="about.html">About</a>
+                                </li>
+                                <li><a class="gn-icon gn-icon-cog" href="im.html">Incubation Model</a></li>
+                                <li><a class="gn-icon gn-icon-archive" href="careers.html">Careers</a></li>
+                                <li>
+                                    <a class="gn-icon gn-icon-article" href="#contact">Contact Us</a>
+                                    <!-- <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                        <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                        <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                    </ul> -->
+                                </li>
+                            </ul>
+                        </div><!-- /gn-scroller -->
+                    </nav>
+                </li>
+                <li><a href="index.html" style="padding:0"><!-- i2india <--><img src="assets/img/i2india/i2 Logo.jpg" alt="" height="56px"></a></li>
+                <li></li>
+            </ul>
+    </div>
+    
+    <!-- MAIN IMAGE SECTION -->
 	<div id="aboutwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h2>We Are Storytellers.<br/>
-						Brands Are Our Subjects.
+					<h2>Our mission is to fill the gap of product innovation in India.
 					</h2>
 				</div>
 			</div><!-- row -->
@@ -89,24 +93,88 @@
     <div id="chartwrap">
 	    <div class="container">
 	      <div class="row mt">
-			  <div class="col-lg-8 chart hidden-sm hidden-xs">
-			  	<img class="img-responsive" src="assets/img/chart.png" alt="">
-			  </div><!-- col-lg-8 -->
+
 			  
-			  <div class="col-lg-4">
-			  	<h1>About Link</h1>
-			  	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> 
-			  	<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software</p>
+			  <div class="col-lg-1"></div>
+			  <div class="col-lg-10">
+			  	<h1>About i2india</h1>
+			  	<p>i2india was created on foundational investments by Imperial Innovations Plc UK (The Technology Transfer arm of Imperial College, London), CMG Partners UK and various leading Indian industry leaders and experts such as Tata Sons. Imperial Innovations UK is a $500 Million company that has commercialized more than 100 technologies over the past 20+ years. </p> 
+			  	<p>i2india combines the activities of market research, company incubation, investment and intensive mentoring. The company is led by a team of Entrepreneurial Managers who have hands-on experience in product startups and who roll-up their sleeves to get involved.</p>
 			  </div><!-- col-lg-4 -->
 	      </div><!-- /row -->
 	    </div><!-- /.container -->
     </div><!-- chartwrap -->
 
-	<!-- SERVICES SECTION -->
+    <div id="models">
+    	<div class="container">
+    		<div class="row mt">
+    			<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<!-- <br><br><br><br><br><br><br>hello world <br><br><br><br><br><br><br> -->
+					<div class="centered">
+						<h3>The Conventional Approach</h3>
+					<img src="assets/img/i2india/Model_1.png" alt="" height="175px">
+
+					</div>
+					<br><br>
+					<hr>
+					<br><br>
+					<div class="centered">
+					<h3>The i2india Approach</h3>	
+					<img src="assets/img/i2india/i2india model.png" alt="" height="175px">
+					</div>
+
+					<br><br>
+
+					<p class="lead">I2india has evolved two unique models for filling in local eco-system gaps:</p>
+					
+
+					<h4>Go-To-Market Strategy: B2B2C Model</h4>
+
+					<p>This model addresses the biggest challenge of marketing costs/effort faced by product startups. I2india leverages its extensive personal and corporate network to develop intimate links between its incubatee companies and partner Brands or Businesses. The business plan is developed right from its initial stages, with such synergies in mind. The model guarantees a big-splash market entry with modest costs.</p>
+					
+					<br><br>
+
+					<div class="col-lg-12" style="padding-bottom:40px">
+						<div class="col-lg-6" style="border-right=1px;">
+							<h5 class="centered">Conventional Mentoring</h5>
+							<ul>
+								<li>Meet 1-2 times/month</li>
+								<li>Has mentor created a product startup?</li>
+								<li>Altruistic approach vs. “Skin-in-the-game” approach</li>
+								<li>What does mentor lose/gain</li>
+							</ul>
+						</div>
+						<div class="col-lg-6">
+							<h5 class="centered">I2india’s Co-Promotion Mentoring</h5>
+							<ul>
+								<li>Daily, on-site, in-depth</li>
+								<li>Mentors are running product startups</li>
+								<li>Mentors co-invest </li>
+								<li>Mentors win only if startup does</li>
+							</ul>
+						</div>
+					</div>
+					
+					<br><br><br><br><br><br><br><br><br>
+
+					<div class="col-lg-12">
+						<h4>Intensive Mentoring: Co-Promotion Model</h4>
+
+						<p>First generation entrepreneurs need more and experiential advice than high-level “gyan”. Unlike most mentors who have limited startup experience themselves, i2india mentors bring personal hands-on experience and near full-time involvement. We think of ourselves as Co-Promoters and our success is 100% dependent on that of our incubatees.</p>
+					</div>
+
+				</div>
+
+    		</div>
+    	</div>
+    </div>
+<!-- 
+	SERVICES SECTION
 	<div id="services">
 		<div class="container">
 			<div class="row mt">
-				<!-- Srvice 1 -->
+				Srvice 1
 				<div class="col-lg-1 centered">
 					<i class="fa fa-certificate"></i>
 				</div>
@@ -115,7 +183,7 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 
-				<!-- Srvice 2 -->
+				Srvice 2
 				<div class="col-lg-1 centered">
 					<i class="fa fa-question-circle"></i>
 				</div>
@@ -124,7 +192,7 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 
-				<!-- Srvice 3 -->
+				Srvice 3
 				<div class="col-lg-1 centered">
 					<i class="fa fa-globe"></i>
 				</div>
@@ -133,7 +201,7 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 				
-				<!-- Srvice 4 -->
+				Srvice 4
 				<div class="col-lg-1 centered">
 					<i class="fa fa-desktop"></i>
 				</div>
@@ -142,7 +210,7 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 
-				<!-- Srvice 5 -->
+				Srvice 5
 				<div class="col-lg-1 centered">
 					<i class="fa fa-cog"></i>
 				</div>
@@ -151,7 +219,7 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 			
-				<!-- Srvice 6 -->
+				Srvice 6
 				<div class="col-lg-1 centered">
 					<i class="fa fa-heart"></i>
 				</div>
@@ -160,70 +228,73 @@
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>
 
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- services section -->
+			</div>row
+		</div>container
+	</div>services section
 	
 	
-	<!-- TEAM INTRODUCTION -->
-	<div class="container">
+	TEAM INTRODUCTION
+	<div class="container" style="padding-top:50px;">
 		<div class="row mt">
-			<div class="col-lg-8">
+			<div class="col-lg-6 col-lg-offset-1">
 				<h1>Professional Team</h1>
 			</div>
-			<div class="col-lg-4"></div>
-		</div><!-- row -->
+			<div class="col-lg-6"></div>
+		</div>row
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-7  col-lg-offset-1">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 				<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
 			</div>
-			<div class="col-lg-3 col-lg-offset-1">
+			<div class="col-lg-3  col-lg-offset-1">
 				<p><b>CORPORATE BRIEF</b></p>
 				<p class="tm">Download the last information about our agency, our notable works, our team members, next projects & more.</p>
 				<p class="tm"><a href="#"><i class="fa fa-link"></i> <b>Download PDF</b></a></p>	
 			</div>
 		</div>
 		
-	</div><!-- container -->
+	</div>container
 	
-	<!-- TEAM MEMBERS -->
+	TEAM MEMBERS
 	<div class="container">
 		<div class="row mt centered">
-			<div class="col-lg-4">
-				<img src="assets/img/team/gianni.png" alt="Gianni">
-				<div class="cardinfo">
-					<h4><b>GIANNI DI MARCO</b></h4>
-					<h6>ART DIRECTOR</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
+			<div class="col-lg-12" style="margin-right:25px;margin-left:25px;">
+					
+				<div class="col-lg-4">
+					<img src="assets/img/team/gianni.png" alt="Gianni">
+					<div class="cardinfo">
+						<h4><b>GIANNI DI MARCO</b></h4>
+						<h6>ART DIRECTOR</h6>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+						<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="assets/img/team/rebecca.png" alt="Rebecca">
+					<div class="cardinfo">
+						<h4><b>REBECCA ZEARING</b></h4>
+						<h6>DESIGN DIRECTOR</h6>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+						<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="assets/img/team/william.png" alt="Gianni">
+					<div class="cardinfo">
+						<h4><b>WILLIAM SMITH</b></h4>
+						<h6>TEAM MANAGER</h6>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+						<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/team/rebecca.png" alt="Rebecca">
-				<div class="cardinfo">
-					<h4><b>REBECCA ZEARING</b></h4>
-					<h6>DESIGN DIRECTOR</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/team/william.png" alt="Gianni">
-				<div class="cardinfo">
-					<h4><b>WILLIAM SMITH</b></h4>
-					<h6>TEAM MANAGER</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			</div>
-		</div><!-- row -->
-	</div><!-- container -->
+		</div>row
+	</div>container
 	
 	
+	 -->
 	
-	
-	<!-- CALL TO ACTION -->
+	<!-- CALL TO ACTION
 	<div id="call">
 		<div class="container">
 			<div class="row">
@@ -232,71 +303,62 @@
 					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 					<p><button type="button" class="btn btn-green btn-lg">Call To Action Button</button></p>
 				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Call to action -->
-	
-	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>Stay Connected</h1>
-				<p>Join us on our social networks for all the latest updates, product/service announcements and more.</p>
-				<br>
-			</div><!-- col-lg-12 -->
-		</div><!-- row -->
-	</div><!-- container -->
-	
-	
-	<!-- SOCIAL FOOTER --->
-	<section id="contact"></section>
-	<div id="sf">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 dg">
-					<h4 class="ml">FACEBOOK</h4>
-					<p class="centered"><a href="#"><i class="fa fa-facebook"></i></a></p>
-					<p class="ml">> Become A Friend</p>
-				</div>
-				<div class="col-lg-4 lg">
-					<h4 class="ml">TWITTER</h4>
-					<p class="centered"><a href="#"><i class="fa fa-twitter"></i></a></p>
-					<p class="ml">> Follow Us</p>
-				</div>
-				<div class="col-lg-4 dg">
-					<h4 class="ml">GOOGLE +</h4>
-					<p class="centered"><a href="#"><i class="fa fa-google-plus"></i></a></p>
-					<p class="ml">> Add Us To Your Circle</p>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Social Footer -->
-	
-	<!-- CONTACT FOOTER --->
-	<div id="cf">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-		        	<div id="mapwrap">
-						<iframe height="400" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=52.752693,22.791016&amp;spn=67.34552,156.972656&amp;z=6&amp;output=embed"></iframe>
-					</div>	
-				</div><!--col-lg-8-->
-				<div class="col-lg-4">
-					<h4>ADDRESS<br/>Minsk - Head Office</h4>
-					<br>
-					<p>
-						Business Center, SomeAve 987,<br/>
-						Minsk, Belarus.
-					</p>
-					<p>
-						P: +55 4839-4390<br/>
-						F: +55 4333-4345<br/>
-						E: <a href="mailto:#">hello@linkagency.com</a>
-					</p>
-					<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div><!--col-lg-4-->
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Contact Footer -->
+			</div>row
+		</div>container
+	</div>Call to action
+	 -->
+	<section  id="contact"></section>
+    <div id="sf">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 dg">
+                    <h4 class="ml">FACEBOOK</h4>
+                    <p class="centered"><a href="https://www.facebook.com/pages/I2india-Ventures/256495864367442"><i class="fa fa-facebook"></i></a></p>
+                    <p class="ml">> Like Us</p>
+                </div>
+                <div class="col-lg-4 lg">
+                    <h4 class="ml">TWITTER</h4>
+                    <p class="centered"><a href="#"><i class="fa fa-twitter"></i></a></p>
+                    <p class="ml">> Follow Us</p>
+                </div>
+                <div class="col-lg-4 dg">
+                    <h4 class="ml">GOOGLE +</h4>
+                    <p class="centered"><a href="#"><i class="fa fa-google-plus"></i></a></p>
+                    <p class="ml">> Add Us To Your Circles</p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- Social Footer -->
+
+    <!-- CONTACT FOOTER -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id="mapwrap">
+
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5th+Main+Rd,+Sector+7,+HSR+Layout,+Bangalore,+Karnataka+560102&amp;aq=&amp;sll=12.913652,77.632366&amp;sspn=0.003158,0.00523&amp;ie=UTF8&amp;hq=&amp;hnear=5th+Main+Rd,+Sector+7,+HSR+Layout,+Bangalore,+Bangalore+Urban,+Karnataka+560102&amp;ll=12.912271,77.632431&amp;spn=0.006316,0.010461&amp;t=m&amp;z=14&amp;iwloc=lyrftr:starred_items:105506061700134800255:,5th+Main+Rd*,+Sector+6*,+HSR+Layout*,+Bangalore*,+Karnataka+560102*,+India,12.91419,77.632334&amp;output=embed"></iframe>
+
+
+                    </div>  
+                </div><!--col-lg-8-->
+                <div class="col-lg-4" style="padding-top:50px;">
+                    <h4>ADDRESS<br/>Bengaluru Office</h4>
+                    <br>
+                    <p>
+                        L142, 5th Avenue, 3rd Floor<br>
+                        5th Main, 6th Sector, HSR Layout<br>
+                        Bangalore 560 008 
+                    </p>
+                    <p>
+                        P: + 91 80 65696979<br/>
+                        E: <a href="mailto:info@i2india.in">info@i2india.in</a>
+                    </p>
+                    <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div><!--col-lg-4-->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- Contact Footer -->
 	
 
     <!-- Bootstrap core JavaScript
@@ -305,6 +367,21 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.js"></script>
+	<script>
+		new AnimOnScroll( document.getElementById( 'grid' ), {
+			minDuration : 0.4,
+			maxDuration : 0.7,
+			viewportFactor : 0.2
+		} );
+	</script>
+
+    <!-- Core JavaScript Files -->
     <script src="assets/js/classie.js"></script>
+    <script src="assets/js/gnmenu.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/custom.js"></script>
+
   </body>
 </html>

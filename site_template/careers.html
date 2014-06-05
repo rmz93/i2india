@@ -48,7 +48,7 @@
   <body>
     
     <!-- nav menu -->
-	<div class="container">
+    <div class="container">
             <ul id="gn-menu" class="gn-menu-main">
                 <li class="gn-trigger">
                     <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
@@ -76,176 +76,58 @@
                 <li></li>
             </ul>
     </div>
-	
-	<!-- MAIN IMAGE SECTION -->
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h1 class="poster" style="text-transform:none">i2india</h1>
-					<hr>
-                    <h2 style="font-size:25px;">Promoting the Indian Innovation ecosystem</h2>
-					
-                    
-                    <div class="spacer"></div>
 
-				</div>
-			</div><!-- row -->
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
+    <!-- MAIN IMAGE SECTION -->
+    <div id="portwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our in-house and incubatee teams work on some of the most challenging problems</h2>
+                </div>
+            </div><!-- row -->
+        </div><!-- /container -->
+    </div><!-- /portrwrap -->
 
-	<!-- WELCOME SECTION
-	    <div class="container">
-	      <div class="row mt">
-	      	<div class="col-lg-1"></div>
-	      	<div class="col-lg-6">
-	        <h1>We build websites & apps that people love!</h1>
-	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-	      	</div>
-	      	<div class="col-lg-4">
-	      		<p class="pull-right"><br><button type="button" class="btn btn-green">Start Your Project Now</button></p>
-	      	</div>
-	      </div>/row
-	    </div>/.container -->
-    
-	<hr>
-
+    <!-- WELCOME SECTION -->
     <div class="container">
-        <div class="row mt">
-        	<div class="col-lg-1"></div>
-            <div class="col-lg-8">
-                <h1>About Us</h1>
-            </div>
-            <div class="col-lg-4"></div>
-        </div><!-- row -->
-        <div class="row">
-        	<div class="col-lg-1"></div>
-            <div class="col-lg-10 ">
-                <p>Product startups in India follow a different path compared to Indian service startups and Western product startups. The Indian start-up eco-system mainly supports services companies. I2india has evolved a unique Indian model for product acceleration to power concept stage startups.</p>
-                <p>We work with Entrepreneurs interested in leveraging technology to build world-class products. Our mission is to fill the gap of product innovation in India.</p>
-                <p><a href="about.html">Read More</a>.</p>
-            </div>
-            <!-- <div class="col-lg-3 col-lg-offset-1">
-                <p><b>CORPORATE BRIEF</b></p>
-                <p class="tm">Download the last information about our agency, our notable works, our team members, next projects & more.</p>
-                <p class="tm"><a href="#"><i class="fa fa-link"></i> <b>Download PDF</b></a></p>    
-            </div> -->
+      <div class="row mt">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11">
+            <p class="lead">Want to work on a challenging problem that will benefit millions of people? Look out for job openings at i2india and our incubatees here.</p>
         </div>
-        
-    </div><!-- container -->
+      </div><!-- /row -->
+    </div><!-- /.container -->
+    
+    <!-- PORTFOLIO SECTION -->
+    <div id="portfolio">
+        <div class="container"
+            <div class="row mt">
+                <h1>Jobs</h1>
+                <div ng-repeat="job in jobs">
+                    <hr>
+                    <p><h4>Title: </h4>{{job.title}}</p>
+                    <p><h4>Skills: </h4>{{job.skills}}</p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- portfolio -->
 
-	<hr>
+    
+    <!-- CALL TO ACTION -->
+    <div id="call">
+        <div class="container">
+            <div class="row">
+                <h3>THIS IS A CALL TO ACTION AREA</h3>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p><button type="button" class="btn btn-green btn-lg">Call To Action Button</button></p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- Call to action -->
 
-	<!-- SERVICES SECTION
-	<div id="services">
-		<div class="container">
-			<div class="row mt">
-				<div class="col-lg-1 centered">
-					<i class="fa fa-certificate"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Quality Design</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>
-	
-				<div class="col-lg-1 centered">
-					<i class="fa fa-question-circle"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Awesome Support</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>
-			
-			
-				<div class="col-lg-1 centered">
-					<i class="fa fa-globe"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Global Services</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>
-			
-			</div>row
-		</div>container
-	</div>services section
-	
-	
-	BLOG POSTS
-	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>Recent Posts</h1>
-			</div>col-lg-12
-			<div class="col-lg-8">
-				<p>Our latests thoughts about things that only matters to us.</p>
-			</div>col-lg-8
-			<div class="col-lg-4 goright">
-				<p><a href="#"><i class="fa fa-angle-right"></i> See All Posts</a></p>
-			</div>
-		</div>row
-		
-		<div class="row mt">
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
-				<h3><a href="#">Designing for the reader experience</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
-				<h3><a href="#">25 Examples of flat web & application design</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
-				<h3><a href="#">We are an award winning design agency</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div>		
-		</div>row
-	</div>container
-	
-	
-	CLIENTS LOGOS
-	<div id="lg">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2 col-lg-offset-1">
-					<img src="assets/img/clients/c01.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c02.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c03.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c04.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c05.gif" alt="">
-				</div>
-			</div>row
-		</div>container
-	</div>dg
-	
-	
-	CALL TO ACTION
-	<div id="call">
-		<div class="container">
-			<div class="row">
-				<h3>THIS IS A CALL TO ACTION AREA</h3>
-				<div class="col-lg-8 col-lg-offset-2">
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-					<p><button type="button" class="btn btn-green btn-lg">Call To Action Button</button></p>
-				</div>
-			</div>row
-		</div>container
-	</div>Call to action -->
-	
-	
-	<section  id="contact"></section>
+    
+    <section  id="contact"></section>
     <div id="sf">
         <div class="container">
             <div class="row">
@@ -297,7 +179,7 @@
             </div><!-- row -->
         </div><!-- container -->
     </div><!-- Contact Footer -->
-	
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -305,15 +187,15 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/imagesloaded.js"></script>
-	<script>
-		new AnimOnScroll( document.getElementById( 'grid' ), {
-			minDuration : 0.4,
-			maxDuration : 0.7,
-			viewportFactor : 0.2
-		} );
-	</script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script>
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+            minDuration : 0.4,
+            maxDuration : 0.7,
+            viewportFactor : 0.2
+        } );
+    </script>
 
     <!-- Core JavaScript Files -->
     <script src="assets/js/classie.js"></script>
