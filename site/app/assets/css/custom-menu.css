@@ -1,19 +1,19 @@
-@media screen and (max-width: 1920px) {
-    .gn-trigger {
-        display: none !important;
-    }
-
-    .menu-buttons {
-    	display: initial !important;
-    }
+@media (min-width: 0px){
+	.gn-trigger {
+		display: initial !important;
+	}
+	.menu-hide {
+		display: none !important;
+	}
 }
 
-@media screen and (max-width: 960px) {
-    .gn-trigger {
-        display: initial !important;
-    }
-
-    .menu-buttons {
-    	display: none !important;
-    }
+@media (min-width: 1024px) {
+	.gn-trigger {
+		display: none !important;
+	}
+	.menu-hide {
+		display: initial !important;
+	}
 }
+
+
