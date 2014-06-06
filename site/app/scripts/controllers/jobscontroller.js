@@ -16,3 +16,10 @@ var jobs = [
 		requirements: 'good food skills',
 	},
 ];
+
+/*
+company,
+title,
+job description,
+skills,
+reply-to,*/

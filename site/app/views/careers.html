@@ -30,29 +30,35 @@
 		</div><!-- /container -->
 	</div><!-- /portrwrap -->
 
-	<!-- WELCOME SECTION -->
-    <div class="container">
-      <div class="row mt">
-      	<div class="col-lg-1"></div>
-      	<div class="col-lg-11">
-	        <p class="lead">Want to work on a challenging problem that will benefit millions of people? Look out for job openings at i2india and our incubatees here.</p>
-      	</div>
-      </div><!-- /row -->
-    </div><!-- /.container -->
+	<div class="bla-bla">
+		<div class="row">
+			<br><br><br>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+				<h2>Careers</h2>
+				<hr>
+				<p>Want to work on a challenging problem that will benefit millions of people? Look out for job openings at i2india and our incubatees here.</p>
+
+				<!-- PORTFOLIO SECTION -->
+			    <div id="portfolio">
+			    	<div class="container"
+				    	<div class="row mt">
+							<div ng-repeat="job in jobs">
+								
+								<p><h4>Title: </h4>{{job.title}}</p>
+								<p><h4>Skills: </h4>{{job.skills}}</p>
+								<hr>
+							</div>
+				    	</div><!-- row -->
+				    </div><!-- container -->
+			    </div><!-- portfolio -->
+			</div>
+		</div>
+	</div>
 	
-	<!-- PORTFOLIO SECTION -->
-    <div id="portfolio">
-    	<div class="container"
-	    	<div class="row mt">
-	    		<h1>Jobs</h1>
-				<div ng-repeat="job in jobs">
-					<hr>
-					<p><h4>Title: </h4>{{job.title}}</p>
-					<p><h4>Skills: </h4>{{job.skills}}</p>
-				</div>
-	    	</div><!-- row -->
-	    </div><!-- container -->
-    </div><!-- portfolio -->
+	
+	
+	
 
 	
 	<!-- CALL TO ACTION -->
