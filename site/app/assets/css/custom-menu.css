@@ -16,4 +16,16 @@
 	}
 }
 
+/*GALLERY*/
 
+.gallery {
+   height: 250px;
+   width: 250px;
+
+   overflow: hidden;
+
+     
+   -webkit-border-radius: 10%;
+      -moz-border-radius: 10%;
+       border-radius: 10%;
+}
