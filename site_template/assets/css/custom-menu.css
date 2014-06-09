@@ -1,0 +1,31 @@
+@media (min-width: 0px){
+	.gn-trigger {
+		display: initial !important;
+	}
+	.menu-hide {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1024px) {
+	.gn-trigger {
+		display: none !important;
+	}
+	.menu-hide {
+		display: initial !important;
+	}
+}
+
+/*GALLERY*/
+
+.gallery {
+   height: 250px;
+   width: 250px;
+
+   overflow: hidden;
+
+     
+   -webkit-border-radius: 10%;
+      -moz-border-radius: 10%;
+       border-radius: 10%;
+}
