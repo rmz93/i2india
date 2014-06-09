@@ -33,6 +33,7 @@
     <script src="assets/js/modernizr.custom.js"></script>
     <!-- Squad theme CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom-menu.css">
     
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,19 +48,23 @@
 
   <body>
     
+    
     <!-- nav menu -->
-	<div class="container">
-            <ul id="gn-menu" class="gn-menu-main">
+    <div class="container">
+            <ul id="gn-menu" class="gn-menu-main" style="background: #DEDEDE">
                 <li class="gn-trigger">
                     <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-                    <nav class="gn-menu-wrapper">
+                    <nav class="gn-menu-wrapper" style="background: #DEDEDE">
                         <div class="gn-scroller">
-                            <ul class="gn-menu">
+                            <ul class="gn-menu" style="background: #DEDEDE">
                                 <li>
                                     <a class="gn-icon gn-icon-help" href="about.html">About</a>
+                                    <ul class="gn-submenu" style="background: #DEDEDE">
+                                        <li><a class="gn-icon gn-icon-cog" href="im.html">Incubation Model</a></li> 
+                                        <li><a class="gn-icon gn-icon-archive" href="team.html">Our Team</a></li>        
+                                    </ul>
                                 </li>
-                                <li><a class="gn-icon gn-icon-cog" href="im.html">Incubation Model</a></li>
-                                <li><a class="gn-icon gn-icon-archive" href="careers.html">Careers</a></li>
+                                <li><a class="gn-icon gn-icon-download" href="careers.html">Careers</a></li>     
                                 <li>
                                     <a class="gn-icon gn-icon-article" href="#contact">Contact Us</a>
                                     <!-- <ul class="gn-submenu">
@@ -73,8 +78,14 @@
                     </nav>
                 </li>
                 <li><a href="index.html" style="padding:0"><!-- i2india <--><img src="assets/img/i2india/i2 Logo.jpg" alt="" height="56px"></a></li>
-                <li></li>
-            </ul>
+
+                    <li class="menu-hide"><a href="about.html">About</a></li>
+                    <li class="menu-hide"><a href="im_html">Incubation Model</a></li>
+                    <li class="menu-hide"><a href="team.html">Our Team</a></li>
+                    <li class="menu-hide"><a href="careers.html">Careers</a></li>
+                    <li class="menu-hide"><a href="#contact">Contact Us</a></li>
+                    <li></li>
+                </ul>
     </div>
 	
 	<div id="headerwrap">
